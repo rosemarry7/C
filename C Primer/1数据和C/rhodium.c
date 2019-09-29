@@ -80,6 +80,6 @@ int main(){
 
     printf("Hi what's your first name? \n");
     scanf("%s",name);
-    
+    return 0;
 }
 

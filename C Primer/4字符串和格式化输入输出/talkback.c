@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 #define DENSETY 62.4
 /********************************
@@ -21,5 +21,16 @@ int main(){
     printf("well %s your volumn is %2.2f cubic feet \n",name,volumn);
     printf("also your first name has %d letters",letters);
     printf("and we have %d bytes to store it \n",size);
+    return 0;
+}**/
+
+
+/*stdio.h 定义EOF 为-1，EOF=End Of File*/
+#include <stdio.h>
+int main(void){
+    int ch;
+    while((ch = getchar()) != EOF){
+        putchar(ch);
+    }
     return 0;
 }

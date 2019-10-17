@@ -80,7 +80,7 @@ else return;
 printf("%d",n%2);
 } **/
 
-#include <stdio.h>
+/* #include <stdio.h>
 
 int main(void) {
     float n1=3.0;
@@ -105,4 +105,10 @@ int main(void) {
     printf ("%d \n",(int)3.8+3.3);
     printf ("%d \n",(int)3.8+3.3);
     return 0;
+}
+ */
+
+#include <stdio.h>
+int main(void) {
+    printf ("%d \n",23.3);
 }

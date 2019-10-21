@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 			printf("option: %s\n", argv[arg]+1);
 		else
 			printf("argument %d: %s\n", arg, argv[arg]);
-	}
+    }
 	exit(0);
 }
 
